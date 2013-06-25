@@ -26,7 +26,7 @@ namespace AgentTetris001
             Thread.Sleep(200);
 
             GameWindow GW = new GameWindow();
-            GW.StartGame(10);
+            GW.StartGame(1);
             
             // go to sleep; all further code should be timer-driven or event-driven
             Thread.Sleep(Timeout.Infinite);
